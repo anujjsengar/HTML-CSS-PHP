@@ -1,0 +1,14 @@
+<HTML>
+<HEAD><TITLE>CONFIRM PASS</TITLE>
+<SCRIPT type="text/javascript">
+    var pass=document.getElementById("p").value;
+    var cpass=document.getElementById("c").value;
+    if (pass!=cpass)
+        {alert('password mismatched')
+        return false}
+</SCRIPT><form>
+PASSWORD<input type="password" id="p">
+<br>
+confirm password<input type="password" id="c">
+<button type="submit" >submit</button>
+</form>
